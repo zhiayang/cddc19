@@ -1,0 +1,114 @@
+\documentclass[12pt]{article}
+
+\usepackage{commondoc}
+\usepackage{circuitikz}
+\usepackage{chngcntr}
+
+% hmm.
+\makeatletter\@removefromreset{section}{part}\makeatother
+\counterwithin{figure}{section}
+\counterwithin{listing}{section}
+
+\hypersetup{
+	pdftitle={[CDDC19]-S4F3 S0L1D5},
+	pdfauthor={Team S4F3 S0L1D5},
+	colorlinks=true,
+	linkcolor=MidnightBlue,
+	urlcolor=MidnightBlue,
+}
+
+\NewDocumentCommand{\ttt}{m}{\texttt{#1}}
+\NewDocumentCommand{\cddcflag}{m}{\textcolor{Maroon}{\ttt{\$CDDC19\$\{#1\}}}}
+\NewDocumentEnvironment{multipagecode}{}{\captionsetup{type=listing}}{}
+
+% ok, so this isn't meant for print; we ignore the odd-page rule for parts by just re-defining \ensureoddpage
+% to do nothing.
+\renewcommand{\ensureoddpage}{}
+
+
+
+\title{CDDC 2019 Qualifiers}
+\author{Team S4F3 S0L1D5}
+
+\begin{document}
+\pagenumbering{gobble}
+\hypersetup{pageanchor=false}
+\begin{center}
+
+	\vspace*{5mm}
+
+	\begin{flushleft}
+
+	{
+		\Roboto\fontsize{36pt}{48pt}\selectfont CDDC 2019 Qualifiers \\
+		\Roboto\fontsize{28pt}{40pt}\selectfont Challenge Writeup
+
+		\vfill
+
+		\normalfont\fontsize{20pt}{24pt}\selectfont Team:    \tabto{30mm} \fontsize{24pt}{24pt}\selectfont \texttt{S4F3 S0L1D5} \\
+		\normalfont\fontsize{20pt}{24pt}\selectfont Category:\tabto{30mm} Uni/Poly
+
+		\vspace{5mm}
+		\normalfont\fontsize{16pt}{20pt}\selectfont June 2019
+		\vspace{30mm}
+	}
+
+	\end{flushleft}
+
+
+\end{center}
+
+
+\pagebreak
+\pagenumbering{arabic}
+\hypersetup{pageanchor=true}
+
+% reset
+\pagebreak\part{Reverse Engineering}
+\input{problems/lscvm}
+
+\pagebreak\part{Miscellaneous}
+\input{problems/sstv}
+
+
+\makeatletter\@addtoreset{section}{part}\makeatother
+\pagebreak\part{Appendix}
+\section{Code Listings}
+
+	\subsection{\texttt{lscvm-deasciiinator}}
+		\vspace{\baselineskip}
+		\begin{multipagecode}
+			\inputminted[xleftmargin=0.075\textwidth,xrightmargin=0.075\textwidth,frame=leftline,framesep=4mm,framerule=0.4mm,
+	linenos=true]{cpp}{../lscvm/lscvm-deasciiinator.cpp}
+			\caption{lscvm-deasciiinator.cpp}
+			\label{code:lscvm-deasciiinator}
+		\end{multipagecode}
+	% end subsection
+% end section
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

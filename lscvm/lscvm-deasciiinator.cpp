@@ -1,11 +1,8 @@
 // lscvm-deasciiinator.cpp
-// Copyright (c) 2019, zhiayang
-// Licensed under the Apache License Version 2.0.
 
 #include <stdio.h>
 
 #include <map>
-#include <stack>
 #include <vector>
 #include <string>
 #include <iostream>

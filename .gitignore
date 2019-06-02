@@ -1,4 +1,6 @@
 .vscode
 lscvm/lscvm-deasciiinator
 lscvm/lscvm-memoryinator
-
+writeup/_minted*
+*.aux
+*.log
