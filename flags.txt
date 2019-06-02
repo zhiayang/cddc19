@@ -1,3 +1,10 @@
+r-0: $CDDC19${IS_IT_I_AM_FAM0US_NAO}
+r-1: $CDDC19${Past_pAst_paSt_pasT}
+r-2: $CDDC19${B1g-T3ch-Br0thers-4re-Wa7ching-U}
+
+polyglot: $CDDC19${HI~CDDC&NSHC}
+fancynumbers: $CDDC19${50_y0u_f4NcY_fl0W3r_NuMb3R5}
+
 count1: $CDDC19${Count2_is_waiting_Please_enjoy!}
 count2: $CDDC19${This_really_helps_m3_a_lot!}
 count4: $CDDC19${Main_might_be_just_a_function_but_it_is_really_special!}

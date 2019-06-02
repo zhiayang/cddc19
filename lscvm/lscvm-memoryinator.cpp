@@ -1,11 +1,8 @@
 // lscvm-memoryinator.cpp
-// Copyright (c) 2019, zhiayang
-// Licensed under the Apache License Version 2.0.
 
 #include <stdio.h>
 
 #include <map>
-#include <stack>
 #include <vector>
 #include <string>
 #include <iostream>
@@ -22,7 +19,8 @@ std::string createNumber(int num)
 	{
 		return "cfM";
 	}
-	else if((num >= 'a' && num <= 'z') || num == '-' || num == '_' || num == '!')
+	else if((num >= 'a' && num <= 'z') || num == '-'
+		|| num == '_' || num == '!')
 	{
 		return lookup[num];
 	}
@@ -30,7 +28,6 @@ std::string createNumber(int num)
 	{
 		std::string ret;
 
-		// divide by 10.
 		int x = num / 10;
 		ret = createNumber(x) + createNumber(10) + "M";
 
@@ -88,8 +85,6 @@ int main()
 
 		int offset = 0;
 		if(!ofs.empty()) offset = std::stol(ofs);
-
-		printf("%s at %x\n", input.c_str(), offset);
 
 		std::string output;
 		for(size_t i = 0; i < input.size(); i++)
