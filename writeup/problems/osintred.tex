@@ -93,6 +93,30 @@
 \pagebreak
 \section{[R-3-1] Have They Been Pwned?}
 
+	The challenge description wasn't very helpful here...
+
+	\subsection{Solution}
+		This question was quite a challenge. The only hint from the question is that there has been a leak from LightSpeedCorp.
+		With the Google search results being filled with the real life LightSpeed company, it was impossible to find relevant
+		results.
+
+		The breakthrough came when we thought about where would leaks get posted --- somewhere that would be anonymous but
+		easy to access. After brainstorming and searching through multiple sites, we finally found the answer:
+		Pastebin\footnote{\url{https://pastebin.com}}. Searching for "LightSpeedCorp" in Pastebin yielded this page:
+
+		\begin{figure}[!htbp]\centering
+			\includegraphics[width=130mm]{figures/osintred/r31.png} \vspace{5mm}
+			\caption{Oh, numbers again...}
+		\end{figure}
+
+		Interpreting the digits as hexdecimal and turning them into ASCII gives us our flag.
+
+	% end subsection
+
+	\subsection{Part}
+		The flag for this challenge was \cddcflag{7H0u\_H4sT\_L3ArN3D\_2\_G000GLE}
+	% end subsection
+
 % end section
 
 
@@ -100,11 +124,53 @@
 \pagebreak
 \section{[R-4-1] Where I Get All My Memes From}
 
+	Memes sound like fun!
+
+	\subsection{Solution}
+
+		With the name of our administrator obtained (Luther Torvalds), we just had to search him up on Twitter to reveal
+		his profile, and the flag:
+
+		\begin{figure}[!htbp]\centering
+			\includegraphics[width=130mm]{figures/osintred/r41.png} \vspace{5mm}
+		\end{figure}
+
+	% end subsection
+
+	\subsection{Flag}
+		The flag for this challenge was \cddcflag{WHR\_R\_MY\_D4NK\_MEMES}.
+	% end subsection
+
 % end section
 
 
 \pagebreak
 \section{[R-4-1-2] Don't Be A Git}
+
+	Git? Torvalds? Hmm...
+
+	\subsection{Solution}
+
+		Following the followers (hmm) of Luther, we found Bobby Hashlinger, who posted serveral GitHub links on his
+		Twitter, one of which was
+		\ttt{d4rkspeedcorp-framework}\footnote{\url{https://github.com/sjang3141592653/d4rkspeedcorp-framework}}.
+
+		Upon further inspection, the flag (or something like it) was found in the branch \ttt{super-new-feature}, in
+		the latest commit:
+
+		\begin{figure}[!htbp]\centering
+			\includegraphics[width=130mm]{figures/osintred/r412.png} \vspace{5mm}
+			\caption{I would paste it directly, but unicode...}
+		\end{figure}
+
+		The more challenging part was to find the correct tool to make the text upright again... after some searching,
+		we found it\footnote{\url{https://www.toolpond.com/tool/text-flipper}}, and the flag.
+
+	% end subsection
+
+	\subsection{Flag}
+		The flag for this challenge was \cddcflag{D0n7\_b3\_5cAr3D\_0f\_c0MM1tM3nT5}
+	% end subsection
 
 % end section
 

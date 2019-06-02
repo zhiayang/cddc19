@@ -70,6 +70,49 @@
 % end section
 
 
+\pagebreak
+\section{Unzip}
+
+	Oh, it isn't a zip bomb, is it?
+
+	\subsection{Solution}
+		Running \ttt{zip2john} on the file revealed a password protected file \ttt{flag.png}, and that the encryption
+		format was \ttt{pkzip}.
+
+		\begin{listing}[!htbp]
+			\begin{minted}[autogobble,xleftmargin=0.075\textwidth,xrightmargin=0.075\textwidth,frame=leftline,framesep=4mm,framerule=0.4mm]{sh}
+				$ zip2john Un.Zip
+				Created directory: /root/.john
+				ver 1.0 Un.Zip/flag.png PKZIP Encr: cmplen=579, decmplen=579, crc=C5C3E066
+				Un.Zip/flag.png:$pkzip...pkzip2$:flag.png:Un.Zip::Un.Zip
+			\end{minted}
+		\end{listing}
+
+		We could then use \ttt{pkcrack}\footnote{\url{https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack.html}} to
+		crack the file:
+
+		\begin{listing}[!htbp]
+			\begin{minted}[autogobble,xleftmargin=0.075\textwidth,xrightmargin=0.075\textwidth,frame=leftline,framesep=4mm,framerule=0.4mm]{sh}
+				$ ./extract -p Un.Zip flag.png
+			\end{minted}
+		\end{listing}
+
+		This reveals the flag:
+
+		\begin{figure}[!htbp]\centering
+			\includegraphics[width=60mm]{figures/unzip.png} \vspace{5mm}
+			\caption{Pixels!}
+		\end{figure}
+
+	% end subsection
+
+	\subsection{Flag}
+		The flag for this challenge was \cddcflag{zZziIipPp}.
+	% end subsection
+
+% end section
+
+
 
 
 
