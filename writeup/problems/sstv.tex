@@ -59,9 +59,9 @@
 	\subsection{Solution}
 
 		% https://www.chonky.net/hamradio/decoding-sstv-from-a-file-on-a-linux-system
-		Using \itl{PulseAudio} was used as a link between \itl{VLC} and
-		\itl{QSSTV}\footnote{\url{http://users.telenet.be/on4qz/qsstv/index.html}} (an open-source Linux SSTV application), we were able to decode
-		the SSTV image.
+		The solution was rather straightforward. Using \itl{PulseAudio} as a link between \itl{VLC} and
+		\itl{QSSTV}\footnote{\url{http://users.telenet.be/on4qz/qsstv/index.html}} (an open-source Linux SSTV application), we were able to rather quickly decode
+		the SSTV image:
 
 		\begin{figure}[!htbp]
 			\centering
@@ -69,10 +69,8 @@
 			\caption{QSSTV decoding the image; its frequency spectrum can be seen on the right}
 		\end{figure}
 
-
 		\pagebreak
-		In this case, \itl{PulseAudio} acts as the pipe that redirects the \ttt{.wav} file as an input into the decoder. To achieve that, we first
-		set up a virtual \itl{null sink} and configure the system in the following manner:
+		In this case, \itl{PulseAudio} acted as the pipe that redirects the \ttt{.wav} file as an input into the \itl{QSSTV} decoder:
 
 		\begin{figure}[!htbp]\centering
 			\begin{circuitikz}
@@ -98,7 +96,23 @@
 			\end{circuitikz}\vspace{5mm}
 			\caption{Data Pipeline Setup}
 		\end{figure}
-
+	
+		This works by enabling and making use of the default \ttt{null-sink} provided with every \itl{PulseAudio} installation:
+		
+		\begin{minted}[autogobble,xleftmargin=0.075\textwidth,xrightmargin=0.075\textwidth,frame=leftline,framesep=4mm,framerule=0.4mm]{sh}
+			pactl load-module module-null-sink sink_name=virtual-cable
+			pavucontrol
+		\end{minted}
+	
+		and making \itl{QSSTV} record from the \ttt{null sink}:
+		
+		\begin{figure}[!htbp]
+			\centering
+			\includegraphics[width=150mm]{figures/sstv/pavu.png} \vspace{5mm}
+			\caption{QSSTV -- Record from the \ttt{null-sink}}
+		\end{figure}
+		
+		Once everything is set up, we simply start recording on \itl{QSSTV} and use \itl{VLC} to playback the \ttt{.wav} file to the \ttt{null-sink} and watch the magic unfold.
 	% end subsection
 
 	\subsection{Flag}
