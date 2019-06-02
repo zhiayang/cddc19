@@ -6,6 +6,8 @@
 
 \section{Polyglot}
 
+	What to do, when presented with languages that we can't understand?
+
 	\subsection{Solution}
 
 		The obvious solution was to put each sentence into Google Translate\footnote{\url{https://translate.google.com}};
@@ -37,3 +39,42 @@
 	% end subsection
 
 % end section
+
+
+\pagebreak
+\section{Do You Fancy Numbers?}
+
+	We are presented with a picture of what are apparently numbers. On first guess they appear to be Chinese in nature.
+
+	\subsection{Solution}
+
+		Indeed, a quick trawl of Wikipedia led us to Suzhou numerals\footnote{\url{https://en.wikipedia.org/wiki/Suzhou_numerals}}, which
+		contained everything we needed to decode the message.
+
+		After substituting them for arabic numerals, we get the following string of numbers:
+		\ttt{36} \ttt{67} \ttt{68} \ttt{68} \ttt{67} \ttt{49} \ttt{57} \ttt{36} \ttt{123} \ttt{53} \ttt{48} \ttt{95} \ttt{121} \ttt{48}
+		\ttt{117} \ttt{95} \ttt{102} \ttt{52} \ttt{78} \ttt{99} \ttt{89} \ttt{95} \ttt{102} \ttt{108} \ttt{48} \ttt{87} \ttt{51} \ttt{114}
+		\ttt{95} \ttt{78} \ttt{117} \ttt{77} \ttt{98} \ttt{51} \ttt{82} \ttt{53} \ttt{125}.
+
+		Putting them through an ASCII decoder yields the following Base64 encoded string:
+		\ttt{JCBDIEQgRCB\\DIDEgOSAkIHsgNSAwIF8geSAwIHUgXyBmIDQgTiBjIFkgXyBmIGwgMCBXIDMgciBfIE4gdSBNIGIgMy\\BSIDUgfQ==}
+
+		Finally, putting that through a Base64 decoder yields the flag (with some spaces).
+
+	% end subsection
+
+	\subsection{Flag}
+		The flag for this challenge was \cddcflag{50\_y0u\_f4NcY\_fl0W3r\_NuMb3R5}.
+	% end subsection
+
+% end section
+
+
+
+
+
+
+
+
+
+
