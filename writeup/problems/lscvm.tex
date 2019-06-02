@@ -31,7 +31,7 @@
 		further inspection, the operand of \ttt{strcmp} appeared to be the output of a call to \ttt{fcn.00001133}, which itself
 		took some very long and suspicious strings as input: \ttt{eiMaAghMcAgjcMMdAgjcMMaAgjcMMaAhhcMMdAijMaAcfMPPPPPPPP}.
 
-		Another discovery was this instruction: \ttt{nasm}{cmp dword [var\_1174h], 2}, where \ttt{var\_1174h} contained the value
+		Another discovery was this instruction: \mintinline{nasm}{cmp dword [var\_1174h], 2}, where \ttt{var\_1174h} contained the value
 		of \ttt{argc}. Passing a second argument in the invocation (eg. \mintinline{sh}{$ ./lscvm-ii x}) revealed a \itl{very} useful
 		debugging mode that printed what appeared to be a stack.
 
