@@ -4,3 +4,4 @@ lscvm/lscvm-memoryinator
 writeup/_minted*
 *.aux
 *.log
+*.ignore
