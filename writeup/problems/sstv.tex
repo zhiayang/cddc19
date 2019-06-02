@@ -1,5 +1,6 @@
 
 % lmao welcome to overkill land
+% all because yudong wants to draw a block diagram
 \ExplSyntaxOn
 \NewDocumentCommand{\dopininparse}{m m}{
 	\node [right, font=\scriptsize] at (\str_use:N\chipname.bpin~ \int_eval:n{#1 + 1}) {\hspace{0.5mm}\texttt{#2}};
@@ -47,24 +48,24 @@
 }
 
 
-
-
-
 \section{Super Strong TeleVision}
-	% https://www.chonky.net/hamradio/decoding-sstv-from-a-file-on-a-linux-system
+
+	With the obvious hints in the challenge statement, we got to work decoding.
+
+	SSTV, or Slow Scan Television, is a picture transmission method used mainly by amateur radio operators to transmit and receive static pictures
+	via radio in monochrome or colour\footnote{\url{en.wikipedia.org/wiki/Slow-scan_television}}. It can also be used to hide easter\footnote{
+	\url{https://wiki.kerbalspaceprogram.com/wiki/List_of_easter_eggs}} eggs\footnote{\url{https://half-life.fandom.com/wiki/Portal_ARG}}...
 
 	\subsection{Solution}
-		SSTV or Slow Scan television is a picture transmission method used mainly by amateur radio operators to transmit and receive static pictures
-		via radio in monochrome or colour\footnote{\url{en.wikipedia.org/wiki/Slow-scan\_television}}.
 
-		The \ttt{.wav} file provided in the challenge is an SSTV-encoded image. Using \itl{PulseAudio} was used as a link between \itl{VLC} and
+		% https://www.chonky.net/hamradio/decoding-sstv-from-a-file-on-a-linux-system
+		Using \itl{PulseAudio} was used as a link between \itl{VLC} and
 		\itl{QSSTV}\footnote{\url{http://users.telenet.be/on4qz/qsstv/index.html}} (an open-source Linux SSTV application), we were able to decode
 		the SSTV image.
 
 		\begin{figure}[!htbp]
 			\centering
-			\includegraphics[width=150mm]{figures/sstv/QSSTV.png}
-			\captionsetup{justification=centering}
+			\includegraphics[width=150mm]{figures/sstv/QSSTV.png} \vspace{5mm}
 			\caption{QSSTV decoding the image; its frequency spectrum can be seen on the right}
 		\end{figure}
 

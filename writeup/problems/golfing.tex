@@ -1,0 +1,160 @@
+% count1, count2, count4.
+
+\section{Count 1: Baby}
+
+	This was a fairly simple code golfing challenge; inspection of the provided \ttt{count1-baby.py} file
+	gave the character limit as \num{53} characters. The starting code is given as this:
+
+	\begin{listing}[!htbp]
+		\begin{ccode}
+			#include <stdio.h>
+
+			int main(int argc, char *argv[])
+			{
+				int i;
+
+				for( i = 1 ; i < 10000 ; i++ )
+				{
+					printf("%d,", i);
+				}
+
+				return 0;
+			}
+		\end{ccode}
+	\end{listing}
+
+	\subsection{Solution}
+
+		Compiling and running the program shows that the expected output of the minified program are the numbers \ttt{1} to \ttt{9999},
+		separated by commas (with a trailing comma after \ttt{9999}).
+
+		Besides the obvious steps like removing whitespace and newlines, knowledge of the C standard and ignorance of compiler warnings
+		can yield the following transformations:
+
+		\begin{bulletlist}
+			& \ttt{printf} is an implicitly defined standard library function; \ttt{stdio.h} can be removed
+			& Functions do not require a type specifier; \ttt{int main} can be shortened to \ttt{main}
+			& \ttt{main} does not need to take arguments, leaving \ttt{main()}
+			& The verifier rejects spaces, so \ttt{int i} has to be changed to \ttt{int(i)} (which is valid)
+			& \ttt{main} does not need to explicitly \ttt{return 0}
+		\end{bulletlist}
+
+		\pagebreak
+		This yields the final program, at \num{53} characters long:
+
+		\begin{listing}[!htbp]\begin{ccode}
+			main(){int(i);for(i=1;i<10000;i++){printf("%d,",i);}}
+			\end{ccode}
+			\caption{The solution for Count 1: Baby}
+			\label{code:count1}
+		\end{listing}
+
+	% end subsection
+
+	\subsection{Flag}
+
+		The flag for this challenge was \cddcflag{Count2\_is\_waiting\_Please\_enjoy!}.
+
+	% end subsection
+
+% end section
+
+
+
+\pagebreak
+\section{Count 2: Wildness}
+
+	The required output for this challenge is the same as the previous challenge (Count 1: Baby), but the restrictions have been
+	tightened. This time, OP's friend \enquote{doesn't like to go wild}, or, in other words, the following characters cannot be
+	used in the source code: \ttt{<== w1lD ==>}. Additionally, the character limit has been reduced to \num{41}.
+
+	\subsection{Solution}
+
+		Starting from the code for Count 1 (Listing \ref{code:count1}), we can apply some more non-obvious tricks:
+
+		\begin{bulletlist}
+			& Variables don't need a type specifier, and will default to \ttt{int}
+			& Variables with static storage duration will be initialised to \ttt{0} (obviating the need for \ttt{=})
+			& \ttt{!=} is equivalent to a bitwise XOR (\ttt{\^{}}) for integers (removing \ttt{<})
+			& Taking advantage of \ttt{i++} semantics can replace \ttt{1e4} with \ttt{9999} (since \ttt{1} can't be used)
+		\end{bulletlist}
+
+		This yields the final program, again at exactly \num{41} characters:
+
+		\begin{listing}[!htbp]\begin{ccode}
+			i;main(){for(;i++^9999;printf("%d,",i));}
+			\end{ccode}
+			\caption{The solution for Count 2: Wildness}
+		\end{listing}
+
+	% end subsection
+
+	\subsection{Flag}
+
+		The flag for this challenge was \cddcflag{This\_really\_helps\_m3\_a\_lot}
+
+	% end subsection
+
+% end section
+
+
+
+\pagebreak
+\section{Count 4: Madness - Filter}
+
+	For this challenge, the character limit is slightly relaxed to \num{44} characters, but OP's friend has a faulty keyboard now,
+	and all lowercase characters except those in \enquote{\ttt{mad printf}} (\enquote{a}, \enquote{d}, \enquote{f}, \enquote{i}, \enquote{m},
+	\enquote{n}, \enquote{p}, \enquote{r}, and \enquote{t}) cannot be used.
+
+	\subsection{Solution}
+
+		Given that all the looping constructs (\ttt{for}, \ttt{while}, and even \ttt{goto}) cannot be used due to having illegal characters,
+		the only logical solution is recursion.
+
+		\begin{bulletlist}
+			& It is not illegal to call \ttt{main} recursively
+			& When called with no arguments, \ttt{argc} is \ttt{1}; so \ttt{main(i)} will initialise \ttt{i} to \ttt{1}
+			& \ttt{1E4} is equally as valid as \ttt{1e4}, which is identical to \ttt{10000}
+			& The first arm of the ternary operator can be omitted: \ttt{x?:y} is valid.
+		\end{bulletlist}
+
+		We came up with two independent solutions to this problem:
+
+		\begin{listing}[!htbp]\begin{ccode}
+			main(i){printf("%d,",i++);if(i<1E4)main(i);}
+			\end{ccode}
+			\caption{The solution for Count 2: Wildness}
+		\end{listing}
+
+		\begin{listing}[!htbp]\begin{ccode}
+			i;main(){printf("%d,",++i);i>=9999?:main();}
+			\end{ccode}
+			\caption{An alternative solution for Count 2: Wildness}
+		\end{listing}
+
+		In both cases, the code was exactly \num{44} characters long.
+
+	% end subsection
+
+	\subsection{Flag}
+
+		The flag was \cddcflag{Main\_might\_be\_just\_a\_function\_but\_it\_is\_really\_special!}.
+
+	% end subsection
+
+% end section
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

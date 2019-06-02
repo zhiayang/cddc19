@@ -1,6 +1,8 @@
 
 \section{LSCVM: Immaculate Invasion}
 
+	Presented with a login prompt, the logical conclusion was that the flag would be accessible upon successfully logging into the server.
+
 	\subsection{Solution}
 
 		\newcommand{\ttoc}[1]{\ttt{\bld{#1}}}
@@ -123,8 +125,8 @@
 		not require all of the opcodes (far from it).
 
 		Again, the renaming feature of Cutter was extremely helpful, and we were able to discover the address of the program counter, the
-		base address of the stack, and (in the case of \ttt{lscvm-qh}), the mirror of stdout. Each buffer appears to be a identical
-		with a fixed size of \ttt{0x4e200} bytes (\ttt{0x13880} 32-bit words), and the number of items stored after the last
+		base address of the stack, and (in the case of \ttt{lscvm-qh}), the mirror of stdout. Each buffer appears to be identically
+		constructed with a fixed size of \ttt{0x4e200} bytes (\ttt{0x13880} 32-bit words), and the number of items stored after the last
 		element (ie. at offset \ttt{0x4e200} from the base address).
 
 		We (eventually) managed to decipher all of the opcodes and their purpose:

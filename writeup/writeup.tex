@@ -4,6 +4,12 @@
 \usepackage{circuitikz}
 \usepackage{chngcntr}
 
+% because of polyglot...
+% \usepackage{luatexja-fontspec}
+% \setmainjfont{FandolSong}
+
+
+
 % hmm.
 \makeatletter\@removefromreset{section}{part}\makeatother
 \counterwithin{figure}{section}
@@ -63,11 +69,18 @@
 \pagenumbering{arabic}
 \hypersetup{pageanchor=true}
 
-% reset
+
+\pagebreak\part{OSINT\_RED}
+\input{problems/osintred}
+
+\pagebreak\part{Programming}
+\input{problems/golfing}
+
 \pagebreak\part{Reverse Engineering}
 \input{problems/lscvm}
 
 \pagebreak\part{Miscellaneous}
+\input{problems/misc}
 \input{problems/sstv}
 
 
