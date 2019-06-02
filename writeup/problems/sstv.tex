@@ -106,15 +106,40 @@
 		\end{minted}
 
 		and making QSSTV record from the \ttt{null sink}:
+		
+		\begin{figure}[!htbp]
+			\centering
+			\includegraphics[width=130mm]{figures/sstv/settings.png} \vspace{5mm}
+			\caption{QSSTV -- Set it to retrieve inputs from \itl{PulseAudio} instead of the default \itl{JACK}}
+		\end{figure}
+		
+		and correspondingly in \ttt{pavucontrol}:
 
 		\begin{figure}[!htbp]
 			\centering
-			\includegraphics[width=130mm]{figures/sstv/pavu.png} \vspace{5mm}
+			\includegraphics[width=130mm, frame]{figures/sstv/pavu.png} \vspace{5mm}
 			\caption{QSSTV -- Record from the \ttt{null-sink}}
 		\end{figure}
 
-		Once everything is set up, we simply start recording on QSSTV, use VLC to playback the \ttt{.wav} file to the \ttt{null-sink}, and watch
-		the magic unfold.
+		Once everything is set up, we first start recording on QSSTV:
+		
+		\begin{figure}[!htbp]
+			\centering
+			\includegraphics[width=130mm, frame]{figures/sstv/record.png} \vspace{5mm}
+			\caption{QSSTV -- Record from the \ttt{null-sink}}
+		\end{figure}
+		
+		and use VLC to playback the \ttt{.wav} file to the \ttt{null-sink}:
+		
+		\begin{figure}[!htbp]
+			\centering
+			\includegraphics[width=130mm, frame]{figures/sstv/vlc.png} \vspace{5mm}
+			\caption{VLC -- Play to \ttt{null-sink}}
+		\end{figure}		
+		
+		and finally watch the magic unfold!
+		
+		Thankfully most of the decoding is handled automatically by \itl{QSSTV} and do not require too much manual intervention. 
 	% end subsection
 
 	\pagebreak
@@ -123,7 +148,7 @@
 		was \cddcflag{Light\$peedCorp-\$\$TV}.
 
 		\begin{figure}[!htbp]\centering
-			\includegraphics[width=80mm]{figures/sstv/SSTV.png} \vspace{5mm}
+			\includegraphics[width=80mm, frame]{figures/sstv/SSTV.png} \vspace{5mm}
 			\caption{Decoded SSTV Image}
 		\end{figure}
 	% end subsection
