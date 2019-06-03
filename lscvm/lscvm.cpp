@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <stdarg.h>
+#include <string.h>
 
 #include <array>
 #include <string>
@@ -27,14 +28,26 @@ struct state_t
 	std::array<uint32_t, MEMORY_SIZE> memory;
 };
 
-
+static void hexdump(uint32_t* values, size_t cnt);
 static std::vector<char> cleanInput(const std::string& input);
 static void run(state_t* st);
 
+bool debugMode = false;
+bool printCleanCode = false;
 
 int main(int argc, char** argv)
 {
-	if(argc != 2) printf("usage: ./lscvm <input>\n"), exit(-1);
+	if(argc < 2) printf("usage: ./lscvm <input>\n"), exit(-1);
+
+	for(int i = 1; i < argc; i++)
+	{
+		if(strcmp(argv[i], "--debug") == 0)
+			debugMode = true;
+
+		else if(strcmp(argv[i], "--minify") == 0)
+			printCleanCode = true;
+	}
+
 
 	auto file = std::ifstream(argv[1], std::ios::in);
 	if(!file) printf("failed to open input file '%s'\n", argv[1]), exit(-1);
@@ -50,7 +63,17 @@ int main(int argc, char** argv)
 	state_t st;
 
 	st.pc = 0;
+	st.memory.fill(0);
 	st.instructions = cleanInput(input);
+
+	if(printCleanCode)
+	{
+		printf("minified code:\n");
+		for(auto c : st.instructions)
+			putchar(c);
+
+		printf("\n\n");
+	}
 
 	printf("\n");
 
@@ -101,7 +124,6 @@ static void run(state_t* st)
 	while(st->pc < st->instructions.size())
 	{
 		auto op = st->instructions[st->pc];
-		// printf("op = %c\n", op);
 
 		switch(op)
 		{
@@ -260,6 +282,19 @@ static void run(state_t* st)
 				}
 			} break;
 
+			// debug: dump stack
+			case '?': {
+				printf("\nstack dump:\n");
+				hexdump(&st->stack[0], st->stack.size());
+				printf("\n");
+			} break;
+
+			// debug: dump memory.
+			case '!': {
+				printf("\nmemory dump:\n");
+				hexdump(&st->memory[0], MEMORY_SIZE);
+				printf("\n");
+			} break;
 
 			default: {
 				halt("invalid instruction '%c'!\n", op);
@@ -267,6 +302,21 @@ static void run(state_t* st)
 		}
 
 		st->pc++;
+
+		if(debugMode)
+		{
+			printf("op: %c | pc: %d\n", op, st->pc);
+			printf("stack: [");
+			for(auto x : st->stack)
+				printf(" %d", x);
+
+			printf(" ]\n");
+			printf("callstack:\n");
+			for(auto x : st->callStack)
+				printf("   %d\n", x);
+
+			printf("\n");
+		}
 	}
 }
 
@@ -277,7 +327,69 @@ static void run(state_t* st)
 
 
 
+static void hexdump(uint32_t* arr, size_t len)
+{
+	constexpr int ValuesPerRow = 8;
 
+	auto iszero = [](uint32_t* ptr, size_t len) -> bool {
+		for(size_t i = 0; i < len; i++)
+			if(ptr[i]) return false;
+
+		return true;
+	};
+
+
+	int all0sCnt = 0;
+	for(size_t i = 0; (len - i >= ValuesPerRow) && (i < len); i += ValuesPerRow)
+	{
+		if(all0sCnt > 0)
+		{
+			while((len - ValuesPerRow - i >= ValuesPerRow) && (i < len - ValuesPerRow) && iszero(arr + i, ValuesPerRow))
+				i += ValuesPerRow;
+
+			printf("    *\n");
+		}
+
+		printf("%5x:  ", i);
+		for(size_t k = 0; k < ValuesPerRow; k++)
+			printf("  %8x", arr[i + k]);
+
+		printf("    |");
+
+		for(size_t k = 0; k < ValuesPerRow; k++)
+		{
+			auto c = arr[i + k];
+			(c >= 32 && c <= 127) ? putchar(c) : putchar('.');
+		}
+
+		printf("|\n");
+
+		if(iszero(arr + i, ValuesPerRow))
+			all0sCnt++;
+
+		else
+			all0sCnt = 0;
+	}
+
+
+	if(auto rem = len % ValuesPerRow; rem > 0)
+	{
+		auto tmp = len - (len % ValuesPerRow);
+
+		printf("%5x:  ", tmp);
+		for(size_t i = 0; i < rem; i++)
+			printf("  %8x", arr[tmp + i]);
+
+		for(size_t i = 0; i < (ValuesPerRow - rem); i++)
+			printf("          ");
+
+		printf("    |");
+		for(size_t i = 0; i < rem; i++)
+			(arr[tmp + i] >= 32 && arr[tmp + i] <= 127) ? putchar(arr[tmp + i]) : putchar('.');
+
+		printf("|\n");
+	}
+}
 
 
 
@@ -298,6 +410,11 @@ static std::vector<char> cleanInput(const std::string& input)
 		if(isspace(c))
 		{
 			continue;
+		}
+		else if(c == '!' || c == '?')
+		{
+			// special command to dump memory and stack.
+			ret.push_back(c);
 		}
 		else if(c == ';')
 		{
