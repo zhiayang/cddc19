@@ -13,6 +13,7 @@
 
 #include <fstream>
 #include <sstream>
+#include <iostream>
 
 #define MEMORY_SIZE 0x13880
 
@@ -37,8 +38,8 @@ bool printCleanCode = false;
 
 int main(int argc, char** argv)
 {
-	if(argc < 2) printf("usage: ./lscvm <input>\n"), exit(-1);
-
+	std::string filename;
+	bool read_stdin = false;
 	for(int i = 1; i < argc; i++)
 	{
 		if(strcmp(argv[i], "--debug") == 0)
@@ -46,14 +47,27 @@ int main(int argc, char** argv)
 
 		else if(strcmp(argv[i], "--minify") == 0)
 			printCleanCode = true;
+
+		else if(strcmp(argv[i], "-") == 0)
+			read_stdin = true;
+
+		else if(filename.empty())
+			filename = argv[i];
+
+		else
+			fprintf(stderr, "invalid option '%s'\n", argv[i]), exit(-1);
 	}
 
-
-	auto file = std::ifstream(argv[1], std::ios::in);
-	if(!file) printf("failed to open input file '%s'\n", argv[1]), exit(-1);
-
 	std::string input;
+	if(read_stdin)
 	{
+		std::getline(std::cin, input);
+	}
+	else
+	{
+		auto file = std::ifstream(argv[1], std::ios::in);
+		if(!file) printf("failed to open input file '%s'\n", argv[1]), exit(-1);
+
 		std::stringstream ss;
 		ss << file.rdbuf();
 
@@ -140,8 +154,8 @@ static void run(state_t* st)
 
 			// add two operands
 			case 'A': {
-				auto a = pop();
 				auto b = pop();
+				auto a = pop();
 				push(a + b);
 			} break;
 
@@ -216,8 +230,8 @@ static void run(state_t* st)
 
 			// compare (-1, 0, +1)
 			case 'J': {
-				auto a = pop();
 				auto b = pop();
+				auto a = pop();
 
 				if(a < b)  push(-1);
 				if(a == b) push(0);
@@ -237,8 +251,8 @@ static void run(state_t* st)
 
 			// multiply
 			case 'M': {
-				auto a = pop();
 				auto b = pop();
+				auto a = pop();
 				push(a * b);
 			} break;
 
@@ -258,15 +272,15 @@ static void run(state_t* st)
 
 			// subtract
 			case 'S': {
-				auto a = pop();
 				auto b = pop();
+				auto a = pop();
 				push(a - b);
 			} break;
 
 			// divide
 			case 'V': {
-				auto a = pop();
 				auto b = pop();
+				auto a = pop();
 				push(a / b);
 			} break;
 
