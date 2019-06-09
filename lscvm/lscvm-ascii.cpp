@@ -1,6 +1,7 @@
 // lscvm-deasciiinator.cpp
 
 #include <stdio.h>
+#include <string.h>
 
 #include <map>
 #include <vector>
@@ -39,7 +40,7 @@ std::string createNumber(int num)
 }
 
 
-int main()
+int main(int argc, char** argv)
 {
 	lookup['a'] = "jjMjAhA";
 	lookup['b'] = "jjMjAiA";
@@ -73,6 +74,10 @@ int main()
 
 
 	std::string input;
+	bool reverse = false;
+
+	if(argc == 2 && strcmp(argv[1], "--reverse") == 0)
+		reverse = true;
 
 	while(true)
 	{
@@ -83,8 +88,17 @@ int main()
 
 		// the reason we consolidate all the 'P's at the end is so we can use this to set strings up on the stack,
 		// without printing -- we just don't copy the 'P' part.
-		for(size_t i = input.size(); i-- > 0;)
-			output += createNumber(input[i]);
+
+		if(reverse)
+		{
+			for(size_t i = 0; i < input.size(); i++)
+				output += createNumber(input[i]);
+		}
+		else
+		{
+			for(size_t i = input.size(); i-- > 0;)
+				output += createNumber(input[i]);
+		}
 
 		for(size_t i = 0; i < input.size(); i++)
 			output += "P";

@@ -20,6 +20,7 @@
 struct state_t
 {
 	size_t pc;
+	size_t cycles;
 
 	std::vector<char> instructions;
 
@@ -33,8 +34,8 @@ static void hexdump(uint32_t* values, size_t cnt);
 static std::vector<char> cleanInput(const std::string& input);
 static void run(state_t* st);
 
+bool minify = false;
 bool debugMode = false;
-bool printCleanCode = false;
 
 int main(int argc, char** argv)
 {
@@ -46,7 +47,7 @@ int main(int argc, char** argv)
 			debugMode = true;
 
 		else if(strcmp(argv[i], "--minify") == 0)
-			printCleanCode = true;
+			minify = true;
 
 		else if(strcmp(argv[i], "-") == 0)
 			read_stdin = true;
@@ -77,17 +78,19 @@ int main(int argc, char** argv)
 	state_t st;
 
 	st.pc = 0;
+	st.cycles = 0;
 	st.memory.fill(0);
 	st.instructions = cleanInput(input);
 
-	if(printCleanCode)
+	if(minify)
 	{
-		printf("minified code:\n");
+		printf("\nminified code: (%zu bytes)\n\n", st.instructions.size());
 		for(auto c : st.instructions)
 			putchar(c);
 
 		printf("\n\n");
 	}
+
 
 	printf("\n");
 
@@ -110,6 +113,8 @@ static void halt(const char* fmt, ...)
 {
 	va_list args;
 	va_start(args, fmt);
+
+	fprintf(stderr, "\n");
 
 	vfprintf(stderr, fmt, args);
 	fprintf(stderr, "vm error! exiting...\n");
@@ -138,6 +143,11 @@ static void run(state_t* st)
 	while(st->pc < st->instructions.size())
 	{
 		auto op = st->instructions[st->pc];
+
+		if(debugMode && !isspace(op))
+		{
+			printf("op: %c | pc: %zu | cyc: %zu\n", op, st->pc, st->cycles);
+		}
 
 		switch(op)
 		{
@@ -169,7 +179,7 @@ static void run(state_t* st)
 			case 'C': {
 				size_t f = pop();
 				if(f >= st->instructions.size())
-					halt("call to instruction '%u' out of bounds (max %zu)\n", st->instructions.size() - 1);
+					halt("C: call to instruction '%u' out of bounds (max %zu)\n", st->instructions.size() - 1);
 
 				st->callStack.push_back(st->pc);
 
@@ -187,7 +197,7 @@ static void run(state_t* st)
 			case 'E': {
 				auto addr = pop();
 				if(addr >= MEMORY_SIZE)
-					halt("read from address '%x' out of bounds\n", addr);
+					halt("E: read from address '%x' out of bounds\n", addr);
 
 				push(st->memory[addr]);
 			} break;
@@ -196,7 +206,7 @@ static void run(state_t* st)
 			case 'F': {
 				auto ofs = pop();
 				if(ofs >= st->stack.size())
-					halt("fetch stack '%x' out of bounds\n");
+					halt("F: fetch stack '%x' out of bounds\n");
 
 				auto x = st->stack[st->stack.size() - 1 - ofs];
 				push(x);
@@ -204,9 +214,9 @@ static void run(state_t* st)
 
 			// relative jump forward
 			case 'G': {
-				auto jmp = pop();
+				int32_t jmp = pop();
 				if(st->pc + jmp >= st->instructions.size())
-					halt("jump to instruction '%u' out of bounds (max %zu)\n", st->instructions.size() - 1);
+					halt("G: jump to instruction '%u' out of bounds (max %zu)\n", st->pc, st->instructions.size() - 1);
 
 				st->pc += jmp;
 			} break;
@@ -215,7 +225,7 @@ static void run(state_t* st)
 			case 'H': {
 				auto ofs = pop();
 				if(ofs >= st->stack.size())
-					halt("fetch stack '%x' out of bounds\n");
+					halt("H: fetch stack '%x' out of bounds\n");
 
 				auto x = st->stack[st->stack.size() - 1 - ofs];
 				st->stack.erase(st->stack.end() - 1 - ofs);
@@ -244,7 +254,7 @@ static void run(state_t* st)
 				auto val = pop();
 
 				if(addr >= MEMORY_SIZE)
-					halt("write to address '%x' out of bounds\n", addr);
+					halt("K: write to address '%x' out of bounds\n", addr);
 
 				st->memory[addr] = val;
 			} break;
@@ -286,13 +296,13 @@ static void run(state_t* st)
 
 			// relative jump forward if 0 (cond, ofs)
 			case 'Z': {
-				auto ofs = pop();
+				int32_t ofs = pop();
 				auto cond = pop();
 				if(cond == 0)
 				{
 					st->pc += ofs;
 					if(st->pc >= st->instructions.size())
-						halt("jump to instruction '%u' out of bounds (max %zu)\n", st->instructions.size() - 1);
+						halt("Z: jump to instruction '%u' out of bounds (max %zu)\n", st->pc, st->instructions.size() - 1);
 				}
 			} break;
 
@@ -310,16 +320,19 @@ static void run(state_t* st)
 				printf("\n");
 			} break;
 
+			case ' ': {
+			} break;
+
 			default: {
 				halt("invalid instruction '%c'!\n", op);
 			}
 		}
 
 		st->pc++;
+		st->cycles++;
 
-		if(debugMode)
+		if(debugMode && !isspace(op))
 		{
-			printf("op: %c | pc: %d\n", op, st->pc);
 			printf("stack: [");
 			for(auto x : st->stack)
 				printf(" %d", x);
@@ -423,14 +436,14 @@ static std::vector<char> cleanInput(const std::string& input)
 
 		if(isspace(c))
 		{
-			continue;
+			if(!minify) ret.push_back(' ');
 		}
 		else if(c == '!' || c == '?')
 		{
 			// special command to dump memory and stack.
 			ret.push_back(c);
 		}
-		else if(c == ';')
+		else if(c == ';' || c == '#')
 		{
 			// skip till end of line.
 			while(input[i] != '\n') i++;

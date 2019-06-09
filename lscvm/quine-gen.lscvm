@@ -1,0 +1,471 @@
+# data starts at 9
+
+jjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAcfMcfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAjAbFKbAjjMcAbFKbAiiMhAbFKbAiiMcAbFKbAhdfMMbAbFKbAjjMjAhAbFKbAiiMgAbFKbAiiMfAbFKbAjjMjAhAbFKbAiiMgAbFKbAjjMjAhAbFKbAhdfMMbAbFKbAjggAMhSbFKbAiiMbAbFKbAjjMcAbFKbAjjMjAbFKbAijMiAbFKbAjjMjAiAbFKbAiiMbAbFKbAjjMjAhAbFKbAjggAMhSbFKbAjiAcdMMbFKbAijMfAbFKbAjjMcAbFKbAiiMhAbFKbAhdfMMbFKbAiiMhAbFKbAjjMjAhAbFKbAjiAcdMMbFKbAjggAMfSbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAjjMcAbFKbAiiMhAbFKbAhdfMMbAbFKbAjjMjAhAbFKbAiiMgAbFKbAiiMfAbFKbAjjMjAhAbFKbAiiMgAbFKbAjjMjAhAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAiiMbAbFKbAjggAMhSbFKbAiiMbAbFKbAjjMcAbFKbAjjMjAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAjeAiMbFKbAiiMbAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjeAiMbFKbAhdfMMbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAjggAMhSbFKbAiiMbAbFKbAhdfMMbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjggAMhSbFKbAjjMcAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAhdfMMbFKbAiiMbAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjeAiMbFKbAhdfMMbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjggAMhSbFKbAjjMcAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAhdfMMbAbFKbAiiMbAbFKbAjjMcAbFKbAjggAMfSbFKbAjjMjAbFKbAjeAiMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAjAbFKbAiiMbAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAhAbFKbAjjMcAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAjjMjAjAbFKbAjiAcdMMbFKbAijMfAbFKbAjjMjAjAbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMcAbFKbAjggAMfSbFKbAjjMjAbFKbAjeAiMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAjAbFKbAiiMbAbFKbAiiMhAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAhdfMMbAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbFKbAiiMbAbFKbAjjMjAjAbFKbAcfMcfMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAhdfMMbAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbFKbAiiMbAbFKbAjjMjAjAbFKbAcfMcfMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAhAbFKbAjjMcAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbAbFKbAjggAMfSbFKbAjggAMfSbFKbAiiMbAbFKbAijMfAbFKbAjeAiMbFKbAjjMcAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjeAiMbFKbAhdfMMbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAjggAMfSbFKbAjggAMfSbFKbAiiMbAbFKbAijMfAbFKbAjiAcdMMbFKbAjjMcAbFKbAijMiAbFKbAhdfMMbAbFKbAjggAMfSbFKbAjggAMfSbFKbAiiMbAbFKbAijMfAbFKbAjiAcdMMbFKbAjjMcAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAjggAMhSbFKbAiiMbAbFKbAhdfMMbFKbAijMfAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAjjMjAjAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjggAMhSbFKbAjjMcAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbAbFKbAhdfMMbFKbAiiMbAbFKbAjjMjAjAbFKbAcfMcfMMbFKbAijMfAbFKbAijMfAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjeAiMbFKbAhdfMMbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAhdfMMbAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAjAbFKbAjiAcdMMbFKbAijMfAbFKbAjjMjAjAbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjggAMhSbFKbAjjMcAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbAbFKbAjggAMfSbFKbAjggAMfSbFKbAiiMbAbFKbAijMfAbFKbAjiAcdMMbFKbAjjMcAbFKbAjjMcAbFKbAjggAMfSbFKbAjjMjAbFKbAjeAiMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAjAbFKbAiiMbAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAjggAMfSbFKbAjggAMfSbFKbAiiMbAbFKbAijMfAbFKbAjiAcdMMbFKbAjjMcAbFKbAijMiAbFKbAhdfMMbAbFKbAjggAMfSbFKbAjggAMfSbFKbAiiMbAbFKbAijMfAbFKbAjiAcdMMbFKbAjjMcAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbFKbAiiMbAbFKbAjjMjAjAbFKbAcfMcfMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAjjMjAjAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAhAbFKbAjjMcAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbAbFKbAjggAMhSbFKbAiiMbAbFKbAhdfMMbFKbAijMfAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjggAMfSbFKbAjeAiMbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAjggAMfSbFKbAjggAMfSbFKbAiiMbAbFKbAijMfAbFKbAjeAiMbFKbAjjMcAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjggAMfSbFKbAhdfMMbFKbAijMfAbFKbAjjMjAjAbFKbAjjMcAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjggAMfSbFKbAjeAiMbFKbAijMfAbFKbAiiMhAbFKbAhdfMMbAbFKbAjggAMhSbFKbAiiMbAbFKbAhdfMMbFKbAijMfAbFKbAijMiAbFKbAjjMjAjAbFKbAjiAcdMMbFKbAijMfAbFKbAjjMjAjAbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbFKbAiiMbAbFKbAjjMjAjAbFKbAcfMcfMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjggAMfSbFKbAhdfMMbFKbAijMfAbFKbAjjMjAjAbFKbAjjMcAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjeAiMbFKbAhdfMMbFKbAijMfAbFKbAiiMhAbFKbAhdfMMbAbFKbAjggAMhSbFKbAiiMbAbFKbAhdfMMbFKbAijMfAbFKbAijMiAbFKbAjjMjAjAbFKbAjiAcdMMbFKbAijMfAbFKbAjjMjAjAbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbFKbAiiMbAbFKbAjjMjAjAbFKbAcfMcfMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAhdfMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjggAMhSbFKbAjjMcAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAhdfMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAjggAMhSbFKbAiiMbAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAjAbFKbAiiMbAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAhdfMMbAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAjggAMhSbFKbAiiMbAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAcfMcfMMbFKbAiiMbAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAjjMjAjAbFKbAjiAcdMMbFKbAijMfAbFKbAjjMjAjAbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAjggAMhSbFKbAiiMbAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjggAMhSbFKbAiiMbAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAjggAMfSbFKbAjggAMfSbFKbAiiMbAbFKbAijMfAbFKbAjeAiMbFKbAjjMcAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAjggAMhSbFKbAiiMbAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbFKbAiiMbAbFKbAjjMjAjAbFKbAcfMcfMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAjggAMhSbFKbAiiMbAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjggAMfSbFKbAiiMbAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAjggAMfSbFKbAjggAMfSbFKbAiiMbAbFKbAijMfAbFKbAjiAcdMMbFKbAjjMcAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAjggAMhSbFKbAiiMbAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjeAiMbFKbAiiMbAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjggAMfSbFKbAjggAMfSbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAjggAMhSbFKbAiiMbAbFKbAhdfMMbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAhdfMMbFKbAiiMbAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjggAMfSbFKbAjggAMfSbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAjggAMhSbFKbAiiMbAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjjMjAjAbFKbAiiMbAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjggAMfSbFKbAjeAiMbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAhdfMMbAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjggAMfSbFKbAhdfMMbFKbAijMfAbFKbAjjMjAjAbFKbAjjMcAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAcfMcfMMbFKbAiiMbAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjggAMfSbFKbAjeAiMbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAjjMjAjAbFKbAjiAcdMMbFKbAijMfAbFKbAjjMjAjAbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjggAMfSbFKbAhdfMMbFKbAijMfAbFKbAjjMjAjAbFKbAjjMcAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjggAMfSbFKbAjeAiMbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbFKbAiiMbAbFKbAjjMjAjAbFKbAcfMcfMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjggAMfSbFKbAhdfMMbFKbAijMfAbFKbAjjMjAjAbFKbAjjMcAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbFKbAiiMbAbFKbAjjMcAbFKbAjggAMhSbFKbAjjMjAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAjggAMhSbFKbAiiMbAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAjjMcAbFKbAjggAMfSbFKbAjjMjAbFKbAjggAMfSbFKbAhdfMMbFKbAijMfAbFKbAjggAMfSbFKbAjjMcAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAhdfMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjggAMfSbFKbAhdfMMbFKbAijMfAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAjjMjAjAbFKbAiiMbAbFKbAjjMcAbFKbAjggAMfSbFKbAjjMjAbFKbAjggAMfSbFKbAhdfMMbFKbAijMfAbFKbAjggAMfSbFKbAjjMcAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAhdfMMbAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjggAMfSbFKbAhdfMMbFKbAijMfAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAjjMcAbFKbAjggAMfSbFKbAjjMjAbFKbAjggAMfSbFKbAhdfMMbFKbAijMfAbFKbAjggAMfSbFKbAjjMcAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbFKbAiiMbAbFKbAjjMjAjAbFKbAcfMcfMMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjggAMfSbFKbAhdfMMbFKbAijMfAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAjjMcAbFKbAjggAMfSbFKbAjjMjAbFKbAjggAMfSbFKbAhdfMMbFKbAijMfAbFKbAjggAMfSbFKbAjjMcAbFKbAiiMhAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAcdMMbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAcfMcfMMbFKbAjiAcdMMbFKbAijMfAbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAjggAMfSbFKbAhdfMMbFKbAijMfAbFKbAjjMcAbFKbAiiMhAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAhdfMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjggAMfSbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAcfMcfMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAhdfMMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAijMiAbFKbAiiMeAbFKbAjjMjAiAbFKbAiiMbAbFKbAjjMjAhAbFKbAjiAcdMMbFKbAhdfMMbFKbAijMfAbFKbAjjMjAiAbFKbAiiMbAbFKbAjjMjAhAbFKbAiiMgAbFKbAijMfAbFKbAhdfMMbFKbAiiMbAbFKbAhdfMMbFKbAiiMbAbFKbAjjMcAbFKbAiiMhAbFKbAD
+
+
+
+
+# setup the initial offset in memory, by printing a 'j'
+# the generated code will use 'bFK' to fetch the offset,
+# and 'bA' to increment it.
+hdfMMbAP
+
+
+# this is the loop to print the input. we only do this after
+# we've setup the memory, so jump over it first.
+
+diMcSG
+
+B       # loop terminate
+j       # [ 9 ]
+aF      # [ 9 9 ]
+E       # [ 9 X ]
+aF      # [ 9 X X ]
+ajeAS   # [ 9 X X -13 ]
+Z       # null terminator check
+
+	# just print
+	P
+
+	# add one to the offset
+	bA
+
+	# jump backwards
+	aefMSG
+
+iG
+
+afgMbASG      # jump backwards to the other loop
+
+j       # [ 9 ]
+aF      # [ 9 9 ]
+E       # [ 9 X ]
+aF      # [ 9 X X ]
+ajjAeAS # [ 9 X X -22 ]
+Z       # null terminator check
+
+# loop body
+# what we want to do here is to print characters that will output the ascii
+# of whatever is on the stack.
+
+# all the tests below follow the same pattern.
+
+# test for 'a'
+aF          # [ 9 X X ]
+jjMjAhA     # [ 9 X X 97 ]
+SeZ         # [ 9 X ]
+hiMG        # < we will jump here after the end, save on jump offset sizes
+	# 'a' - jjMjAhA
+	hdfMMbAP    # j
+	hdfMMbAP    # j
+	ijMfAP      # M
+	hdfMMbAP    # j
+	iiMbAP      # A
+	jeAiMP      # h
+	iiMbAP      # A
+
+	# jump back to the jump to the next check
+	aiiMeSSG    # -60
+
+
+# test for 'b'
+aF jjMjAiA      # 98
+SeZ hiMG        #
+	# 'b' - jjMjAiA
+	hdfMMbAP    # j
+	hdfMMbAP    # j
+	ijMfAP      # M
+	hdfMMbAP    # j
+	iiMbAP      # A
+	hdfMMP      # i
+	iiMbAP      # A
+	aiiMeSSG    # -60
+
+
+# test for 'c'
+aF jjMjAjA      # 99
+SgZ hiMcAG
+	# 'c' - jjMjAjA
+	hdfMMbAP    # j
+	hdfMMbAP    # j
+	ijMfAP      # M
+	hdfMMbAP    # j
+	iiMbAP      # A
+	hdfMMbAP    # j
+	iiMbAP      # A
+	aiiMaSSG    # -64
+
+
+# test for 'd'
+aF cfMcfMM      # 100
+SgZ hiMcAG
+	# 'd' - cfMcfMM
+	jjMjAjAP    # c
+	jiAcdMMP    # f
+	ijMfAP      # M
+	jjMjAjAP    # c
+	jiAcdMMP    # f
+	ijMfAP      # M
+	ijMfAP      # M
+	aiiMaSSG    # -64
+
+
+# test for 'e'
+aF jggAMhS      # 101
+SeZ hiMG
+	# 'e' - jggAMhS
+	hdfMMbAP    # j
+	jggAMfSP    # g
+	jggAMfSP    # g
+	iiMbAP      # A
+	ijMfAP      # M
+	jeAiMP      # h
+	jjMcAP      # S
+	aiiMeSSG    # -60
+
+
+# test for 'f'
+aF jiAcdMM      # 102
+SeZ hiMG
+	# 'f' - jiAcdMM
+	hdfMMbAP    # j
+	hdfMMP      # i
+	iiMbAP      # A
+	jjMjAjAP    # c
+	cfMcfMMP    # d
+	ijMfAP      # M
+	ijMfAP      # M
+	aiiMeSSG    # -60
+
+
+# test for 'g'
+aF jggAMfS      # 103
+SgZ hiMcAG
+	# 'g' - jggAMfS
+	hdfMMbAP    # j
+	jggAMfSP    # g
+	jggAMfSP    # g
+	iiMbAP      # A
+	ijMfAP      # M
+	jiAcdMMP    # f
+	jjMcAP      # S
+	aiiMaSSG    # -64
+
+
+# test for 'h'
+aF jeAiM        # 104
+SeZ ghMG
+	# 'h' - jeAiM
+	hdfMMbAP    # j
+	jggAMhSP    # e
+	iiMbAP      # A
+	hdfMMP      # i
+	ijMfAP      # M
+	agiMcSSG    # -46
+
+
+# test for 'i'
+aF hdfMM        # 105
+SeZ ghMG
+	# 'i' - hdfMM
+	jeAiMP      # h
+	cfMcfMMP    # d
+	jiAcdMMP    # f
+	ijMfAP      # M
+	ijMfAP      # M
+	agiMcSSG    # -46
+
+
+# test for 'j'
+aF hdfMMbA      # 106
+SeZ hiMG
+	# 'j' - hdfMMbA
+	jeAiMP      # h
+	cfMcfMMP    # d
+	jiAcdMMP    # f
+	ijMfAP      # M
+	ijMfAP      # M
+	jjMjAiAP    # b
+	iiMbAP      # A
+	aiiMeSSG    # -60
+
+
+# test for 'A'
+aF iiMbA        # 65
+SeZ fiMG
+	# 'A' - iiMbA
+	hdfMMP      # i
+	hdfMMP      # i
+	ijMfAP      # M
+	jjMjAiAP    # b
+	iiMbAP      # A
+	afiMeASG    # -44
+
+
+# test for 'B'
+aF iiMcA        # 66
+SeZ fiMG
+	# 'B' - iiMcA
+	hdfMMP      # i
+	hdfMMP      # i
+	ijMfAP      # M
+	jjMjAjAP    # c
+	iiMbAP      # A
+	afiMeASG    # -44
+
+
+# test for 'C'
+aF iiMdA        # 67
+SeZ fiMG
+	# 'C' - iiMdA
+	hdfMMP      # i
+	hdfMMP      # i
+	ijMfAP      # M
+	cfMcfMMP    # d
+	iiMbAP      # A
+	afiMeASG    # -44
+
+
+# test for 'D'
+aF iiMeA        # 68
+SeZ fiMG
+	# 'D' - iiMeA
+	hdfMMP      # i
+	hdfMMP      # i
+	ijMfAP      # M
+	jggAMhSP    # e
+	iiMbAP      # A
+	afiMeASG    # -44
+
+
+# test for 'E'
+aF iiMfA        # 69
+SeZ fiMG
+	# 'E' - iiMfA
+	hdfMMP      # i
+	hdfMMP      # i
+	ijMfAP      # M
+	jiAcdMMP    # f
+	iiMbAP      # A
+	afiMeASG    # -44
+
+
+# test for 'F'
+aF iiMgA        # 70
+SeZ fiMG
+	# 'F' - iiMgA
+	hdfMMP      # i
+	hdfMMP      # i
+	ijMfAP      # M
+	jggAMfSP    # g
+	iiMbAP      # A
+	afiMeASG    # -44
+
+
+# test for 'G'
+aF iiMhA        # 71
+SeZ ggMG
+	# 'G' - iiMhA
+	hdfMMP      # i
+	hdfMMP      # i
+	ijMfAP      # M
+	jeAiMP      # h
+	iiMbAP      # A
+	afiMSG      # -40
+
+
+# test for 'H'
+aF iiMiA        # 72
+SeZ ggMG
+	# 'H' - iiMiA
+	hdfMMP      # i
+	hdfMMP      # i
+	ijMfAP      # M
+	hdfMMP      # i
+	iiMbAP      # A
+	afiMSG      # -40
+
+
+# test for 'I'
+aF iiMjA        # 73
+SeZ fiMG
+	# 'I' - iiMjA
+	hdfMMP      # i
+	hdfMMP      # i
+	ijMfAP      # M
+	hdfMMbAP    # j
+	iiMbAP      # A
+	afiMeASG    # -44
+
+
+# test for 'J'
+aF ijMcA        # 74
+SeZ ghMG
+	# 'J' - ijMcA
+	hdfMMP      # i
+	hdfMMbAP    # j
+	ijMfAP      # M
+	jjMjAjAP    # c
+	iiMbAP      # A
+	agiMcSSG    # -46
+
+
+# test for 'K'
+aF ijMdA        # 75
+SeZ ghMG
+	# 'K' - ijMdA
+	hdfMMP      # i
+	hdfMMbAP    # j
+	ijMfAP      # M
+	cfMcfMMP    # d
+	iiMbAP      # A
+	agiMcSSG    # -46
+
+
+# test for 'M'
+aF ijMfA        # 77
+SeZ ghMG
+	# 'M' - ijMfA
+	hdfMMP      # i
+	hdfMMbAP    # j
+	ijMfAP      # M
+	jiAcdMMP    # f
+	iiMbAP      # A
+	agiMcSSG    # -46
+
+
+# test for 'P'
+aF ijMiA        # 80
+SeZ fiMG
+	# 'P' - ijMiA
+	hdfMMP      # i
+	hdfMMbAP    # j
+	ijMfAP      # M
+	hdfMMP      # i
+	iiMbAP      # A
+	afiMeASG    # -44
+
+
+# test for 'R'
+aF jjMbA        # 82
+SgZ giMgSG
+	# 'R' - jjMbA
+	hdfMMbAP    # j
+	hdfMMbAP    # j
+	ijMfAP      # M
+	jjMjAiAP    # b
+	iiMbAP      # A
+	agiMSG      # -48
+
+
+# test for 'S'
+aF jjMcA        # 83
+SgZ giMgSG
+	# 'S' - jjMcA
+	hdfMMbAP    # j
+	hdfMMbAP    # j
+	ijMfAP      # M
+	jjMjAjAP    # c
+	iiMbAP      # A
+	agiMSG      # -48
+
+
+# test for 'V'
+aF jjMfA        # 86
+SgZ giMgSG
+	# 'V' - jjMfA
+	hdfMMbAP    # j
+	hdfMMbAP    # j
+	ijMfAP      # M
+	jiAcdMMP    # f
+	iiMbAP      # A
+	agiMSG      # -48
+
+
+# test for 'Z'
+aF jjMjA        # 90
+SgZ giMgSG
+	# 'Z' - jjMjA
+	hdfMMbAP    # j
+	hdfMMbAP    # j
+	ijMfAP      # M
+	hdfMMbAP    # j
+	iiMbAP      # A
+	agiMSG      # -48
+
+# we need to print 'bFK'
+jjMjAiAP
+iiMgAP
+ijMdAP
+
+# now on the generated (meta) stack, we only have the offset left
+# add one, by printing 'bA'
+jjMjAiAP
+iiMbAP
+
+D   # drop the char on the stack
+
+
+# increment the index
+bA              # [ 10 ]
+
+# go back to the top
+# for now, the target $pc is 87, so we just
+# make some calculations.
+
+					#
+afiMbAaFMiAiAS      #
+G
+
+
+
+# printing functions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
