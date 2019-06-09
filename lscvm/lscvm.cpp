@@ -84,14 +84,15 @@ int main(int argc, char** argv)
 
 	if(minify)
 	{
-		printf("\nminified code: (%zu bytes)\n\n", st.instructions.size());
+		fprintf(stderr, "\nminified code: (%zu bytes)\n\n", st.instructions.size());
 		for(auto c : st.instructions)
-			putchar(c);
+			fputc(c, stderr);
 
-		printf("\n\n");
+		fprintf(stderr, "\n\n");
 	}
 
 	run(&st);
+	printf("\n");
 }
 
 
@@ -201,7 +202,7 @@ static void run(state_t* st)
 			case 'F': {
 				auto ofs = pop();
 				if(ofs >= st->stack.size())
-					halt("F: fetch stack '%x' out of bounds\n");
+					halt("F: fetch stack '%d' out of bounds\n", ofs);
 
 				auto x = st->stack[st->stack.size() - 1 - ofs];
 				push(x);
@@ -220,7 +221,7 @@ static void run(state_t* st)
 			case 'H': {
 				auto ofs = pop();
 				if(ofs >= st->stack.size())
-					halt("H: fetch stack '%x' out of bounds\n");
+					halt("H: fetch stack '%d' out of bounds\n", ofs);
 
 				auto x = st->stack[st->stack.size() - 1 - ofs];
 				st->stack.erase(st->stack.end() - 1 - ofs);
@@ -372,7 +373,7 @@ static void hexdump(uint32_t* arr, size_t len)
 			printf("    *\n");
 		}
 
-		printf("%5x:  ", i);
+		printf("%5zx:  ", i);
 		for(size_t k = 0; k < ValuesPerRow; k++)
 			printf("  %8x", arr[i + k]);
 
@@ -398,7 +399,7 @@ static void hexdump(uint32_t* arr, size_t len)
 	{
 		auto tmp = len - (len % ValuesPerRow);
 
-		printf("%5x:  ", tmp);
+		printf("%5zx:  ", tmp);
 		for(size_t i = 0; i < rem; i++)
 			printf("  %8x", arr[tmp + i]);
 
@@ -431,7 +432,7 @@ static std::vector<char> cleanInput(const std::string& input)
 
 		if(isspace(c))
 		{
-			if(!minify) ret.push_back(' ');
+			// if(!minify) ret.push_back(' ');
 		}
 		else if(c == '!' || c == '?')
 		{

@@ -81,14 +81,17 @@ int main()
 	while(true)
 	{
 		printf("string: ");
-		std::getline(std::cin, input);
+		// std::getline(std::cin, input);
+		input = "jjjMjAhAbFKbAjjMjAiAbFKbAjjMjAjAbFKbAcfMcfMMbFKbAjggAMhSbFKbAjiAcdMMbFKbAjggAMfSbFKbAjeAiMbFKbAhdfMMbFKbAhdfMMbAbFKbAiiMbAbFKbAiiMcAbFKbAiiMfAbFKbAiiMgAbFKbAiiMhAbFKbAijMdAbFKbAijMfAbFKbAijMiAbFKbAjjMcAbFKbAjjMjAbFKbAhdfMMbAPjjMjAiAjjMjAjAcfMcfMMjggAMhSjiAcdMMjggAMfSjeAiMhdfMMhdfMMbAiiMbAijMfAjjMcAdiMcSGBjaFEaFajeASZPbAaefMSGiGafgMbASGjaFEaFajjAeASZaFjjMjAhASeZfgMGfFPfFPdFPfFPeFPhFPeFPaadjMhASZaFjjMjAiASeZfgMGfFPfFPdFPfFPeFPgFPeFPaadjMhASZaFjjMjAjASeZfgMGfFPfFPdFPfFPeFPfFPeFPaadjMhASZaFcfMcfMMSeZggMGggAFPjFPdFPggAFPjFPdFPdFPaaggMcAcASZaFjggAMhSSeZfgMGfFPiFPiFPeFPdFPhFPcFPaadjMhASZaFjiAcdMMSeZggMGfFPgFPeFPggAFPfgAFPdFPdFPaaggMcAcASZaFjggAMfSSeZfgMGfFPiFPiFPeFPdFPjFPcFPaadjMhASZaFjeAiMSeZegMGfFPffAFPeFPgFPdFPaaehMSZaFhdfMMSeZegMGhFPfgAFPjFPdFPdFPaaehMSZaFhdfMMbASeZggMGhFPfgAFPjFPdFPdFPghAFPeFPaaggMcAcASZaFiiMbASeZegMGgFPgFPdFPghAFPeFPaaehMSZaFiiMcASeZegMGgFPgFPdFPggAFPeFPaaehMSZaFiiMfASeZegMGgFPgFPdFPjFPeFPaaehMaASZaFiiMgASeZegMGgFPgFPdFPiFPeFPaaehMaASZaFiiMhASeZegMGgFPgFPdFPhFPeFPaaehMaASZaFijMdASeZegMGgFPfFPdFPfgAFPeFPaaehMSZaFijMfASeZegMGgFPfFPdFPjFPeFPaaehMaASZaFijMiASeZegMGgFPfFPdFPgFPeFPaaehMaASZaFjjMcASeZegMGfFPfFPdFPggAFPeFPaaehMSZjjMjASeZegMGfFPfFPdFPfFPeFPaaehMaASZjjMjAiAPiiMgAPijMdAPjjMjAiAPiiMbAPbAafgMfgMMbASG";
 
-		printf("address: ");
-		std::string ofs;
-		std::getline(std::cin, ofs);
+		// printf("address: ");
+		// std::string ofs;
+		// std::getline(std::cin, ofs);
 
-		int offset = 0;
-		if(!ofs.empty()) offset = std::stol(ofs);
+		int offset = 9;
+
+		// int offset = 0;
+		// if(!ofs.empty()) offset = std::stol(ofs);
 
 		std::string output;
 
@@ -108,6 +111,8 @@ int main()
 		}
 
 		printf("\n%s\n", output.c_str());
+
+		break;
 	}
 }
 
