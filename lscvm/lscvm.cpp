@@ -35,6 +35,7 @@ static std::vector<char> cleanInput(const std::string& input);
 static void run(state_t* st);
 
 bool minify = false;
+bool dontRun = false;
 bool debugMode = false;
 
 int main(int argc, char** argv)
@@ -48,6 +49,9 @@ int main(int argc, char** argv)
 
 		else if(strcmp(argv[i], "--minify") == 0)
 			minify = true;
+
+		else if(strcmp(argv[i], "--compile") == 0)
+			dontRun = true;
 
 		else if(strcmp(argv[i], "-") == 0)
 			read_stdin = true;
@@ -82,17 +86,22 @@ int main(int argc, char** argv)
 	st.memory.fill(0);
 	st.instructions = cleanInput(input);
 
-	if(minify)
+	if(minify || dontRun)
 	{
-		fprintf(stderr, "\nminified code: (%zu bytes)\n\n", st.instructions.size());
-		for(auto c : st.instructions)
-			fputc(c, stderr);
+		auto s = (dontRun ? stdout : stderr);
 
-		fprintf(stderr, "\n\n");
+		fprintf(s, "\ncompiled code: (%zu bytes)\n\n", st.instructions.size());
+		for(auto c : st.instructions)
+			fputc(c, s);
+
+		fprintf(s, "\n\n");
 	}
 
-	run(&st);
+	if(!dontRun)
+		run(&st);
+
 	printf("\n");
+	// hexdump(&st.memory[0], MEMORY_SIZE);
 }
 
 
@@ -316,8 +325,10 @@ static void run(state_t* st)
 				printf("\n");
 			} break;
 
+			case '-':
 			case ' ': {
 			} break;
+
 
 			default: {
 				halt("invalid instruction '%c'!\n", op);
@@ -433,6 +444,11 @@ static std::vector<char> cleanInput(const std::string& input)
 		if(isspace(c))
 		{
 			// if(!minify) ret.push_back(' ');
+		}
+		else if(c == '-')
+		{
+			// we use this as filler in relocations. the vm will ignore it.
+			ret.push_back('-');
 		}
 		else if(c == '!' || c == '?')
 		{
