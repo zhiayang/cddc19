@@ -107,7 +107,6 @@ int main()
 			output += "bA";
 		}
 
-		output += "D";
 		printf("\n%s\n", output.c_str());
 	}
 }
