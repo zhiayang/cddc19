@@ -1,0 +1,8 @@
+push
+pop
+push
+yank    // this is a comment
+/*
+	another
+	comment
+*/
