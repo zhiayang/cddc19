@@ -1,0 +1,121 @@
+// quine-gen-v2.lscvm
+// Copyright (c) 2019, zhiayang
+// Licensed under the Apache License Version 2.0.
+
+// length is supposed to be appended to the data. please don't reverse the data --- the first character should be
+// at the bottom of the stack.
+
+#raw "jjMjAhAhhAhMjcAjMeffMMeffMMbAjiAgMhhAhMfAjeAiMhdfMMj"
+
+// write the length to address 0 for later use.
+store $0, 0
+
+loop_top:
+	fetch $0    // $0 is the length of the string now.
+
+	jz[9] done
+
+	// grab the character, by fetching from the length at the top --- this gives us the bottom, ie. first char.
+	fetch $0
+	fetch
+
+body:
+	sub 64
+
+	cmp $0, 9
+
+	sub 1
+
+	jz[7] multiplier
+
+	printc 'a'
+
+	push 0
+
+print_digit:
+	add $1, 'a'
+	printc
+
+
+_jumper:
+	jmp
+
+	printc 'i'
+	printc 'i'
+	printc 'M'
+
+	printc 'A'
+	printc 'A'
+
+	drop
+	sub 1
+
+	jmp[9] loop_top
+
+
+multiplier:
+	push 0
+
+again:
+	add 1
+
+	yank $1
+	sub 9
+
+	yank $1
+	cmp $1, 9
+	sub 1
+
+	jz[5] again
+	push[7] ($do_remainder - $_jumper - 1)
+	jmp[9] print_digit
+
+
+do_remainder:
+	printc 'j'
+	printc 'M'
+
+	drop
+
+	push 0
+	jmp[9] print_digit
+
+
+done:
+	load 0
+	jmp[1] print_top
+
+
+quit:
+	halt
+
+print_top:
+	fetch $0
+
+	jz[5] quit
+
+	fetch $0
+	yank
+
+	printc
+	sub 1
+
+	jmp[5] print_top
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

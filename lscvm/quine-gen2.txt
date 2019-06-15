@@ -1,0 +1,256 @@
+# data starts at 9
+
+# jjeAiMbFKbAeffMMbFKbAjiAgMbFKbAijMfAbFKbAijMfAbFKbAhhAhMbFKbAiiMbAbFKbAijMiAbFKbAiiMeAbFKbAhdfMMbAbFKbAjjMjAhAbFKbAiiMgAbFKbAiiMfAbFKbAjjMjAhAbFKbAiiMgAbFKbAeffMMbAbFKbAjiAgMbFKbAijMfAbFKbAjcAjMbFKbAjiAgMbFKbAijMfAbFKbAijMfAbFKbAjeAiMbFKbAjjMcAbFKbAjjMjAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAjjMcAbFKbAjjMjAhAbFKbAiiMgAbFKbAhdfMMbAbFKbAijMcAbFKbAhhAhMbFKbAjjMcAbFKbAjcAjMbFKbAjiAgMbFKbAijMfAbFKbAjcAjMbFKbAjiAgMbFKbAijMfAbFKbAijMfAbFKbAjjMjAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAjeAiMbFKbAiiMbAbFKbAijMiAbFKbAjjMjAhAbFKbAhhAhMbFKbAiiMgAbFKbAhdfMMbAbFKbAhdfMMbAbFKbAijMfAbFKbAhdfMMbAbFKbAiiMbAbFKbAjeAiMbFKbAiiMbAbFKbAiiMbAbFKbAijMiAbFKbAiiMhAbFKbAjeAiMbFKbAeffMMbFKbAjiAgMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAjeAiMbFKbAeffMMbFKbAjiAgMbFKbAijMfAbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAgMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAhhAhMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAhhAhMbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAjeAiMbFKbAiiMbAbFKbAjeAiMbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAhhAhMfAbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAeffMMbFKbAiiMbAbFKbAijMiAbFKbAjeAiMbFKbAjeAiMbFKbAiiMbAbFKbAjeAiMbFKbAijMfAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbFKbAijMfAbFKbAhhAhMbFKbAiiMbAbFKbAijMiAbFKbAiiMeAbFKbAhhAhMbFKbAiiMbAbFKbAjjMjAhAbFKbAhdfMMbAbFKbAeffMMbFKbAjiAgMbFKbAijMfAbFKbAijMfAbFKbAjcAjMbFKbAjjMcAbFKbAjjMjAhAbFKbAiiMbAbFKbAjjMjAhAbFKbAiiMbAbFKbAjjMjAhAbFKbAiiMbAbFKbAjjMcAbFKbAiiMhAbFKbAjjMjAhAbFKbAhhAhMbFKbAiiMbAbFKbAhhAhMbFKbAiiMiAbFKbAhdfMMbAbFKbAjjMcAbFKbAhhAhMbFKbAiiMiAbFKbAhhAhMbFKbAiiMgAbFKbAhdfMMbAbFKbAijMcAbFKbAhhAhMbFKbAjjMcAbFKbAjjMjAhAbFKbAeffMMbAbFKbAjiAgMbFKbAijMfAbFKbAjjMcAbFKbAjjMjAbFKbAhdfMMbFKbAhdfMMbFKbAjcAjMbFKbAijMfAbFKbAijMfAbFKbAhhAhMbFKbAiiMbAbFKbAjjMjAhAbFKbAiiMbAbFKbAjjMjAhAbFKbAiiMbAbFKbAjjMjAhAbFKbAiiMbAbFKbAjjMjAhAbFKbAhhAhMfAbFKbAhhAhMfAbFKbAiiMbAbFKbAhhAhMfAbFKbAhhAhMfAbFKbAiiMbAbFKbAijMfAbFKbAeffMMbFKbAjjMcAbFKbAjjMjAhAbFKbAiiMbAbFKbAjjMjAhAbFKbAiiMbAbFKbAjjMcAbFKbAiiMhAbFKbAjeAiMbFKbAeffMMbFKbAjiAgMbFKbAijMfAbFKbAijMfAbFKbAhhAhMbFKbAiiMbAbFKbAijMiAbFKbAhdfMMbFKbAhdfMMbAbFKbAijMfAbFKbAjiAgMbFKbAiiMbAbFKbAijMiAbFKbAiiMeAbFKbAjjMjAhAbFKbAjjMjAhAbFKbAjiAgMbFKbAhdfMMbFKbAijMfAbFKbAeffMMbAbFKbAijMfAbFKbAjeAiMbFKbAiiMbAbFKbAjjMcAbFKbAiiMhAbFKbAhhAhMbFKbAiiMhAbFKbAiiMcAbFKbAhdfMMbAbFKbAjjMjAhAbFKbAiiMgAbFKbAiiMfAbFKbAjjMjAhAbFKbAiiMgAbFKbAjjMjAhAbFKbAhdfMMbAbFKbAeffMMbAbFKbAiiMbAbFKbAjjMcAbFKbAjjMjAbFKbAijMiAbFKbAhhAhMbFKbAiiMbAbFKbAjjMjAhAbFKbAeffMMbFKbAhdfMMbFKbAijMfAbFKbAjcAjMbFKbAjjMcAbFKbAjjMcAbFKbAiiMhAbFK
+
+
+# jjjMjAhAbFKbAhhAhMbFKbAjcAjMbFKbAeffMMbFKbAeffMMbAbFKbAjiAgMbFK
+
+
+
+# for reference:
+# a -- jjMjAhA
+# b -- hhAhM
+# c -- jcAjM
+# d -- effMM
+# e -- effMMbA
+# f -- jiAgM
+# g -- hhAhMfA
+# h -- jeAiM
+# i -- hdfMM
+# j -- hdfMMbA
+# A -- iiMbA
+# B -- iiMcA
+# C -- iiMdA
+# D -- iiMeA
+# E -- iiMfA
+# F -- iiMgA
+# G -- iiMhA
+# H -- iiMiA
+# I -- iiMjA
+# J -- ijMcA
+# K -- ijMdA
+# M -- ijMfA
+# P -- ijMiA
+# R -- jjMbA
+# S -- jjMcA
+# V -- jjMfA
+# Z -- jjMjA
+
+
+
+# setup the initial offset in memory, by printing a 'j'
+# the generated code will use 'bFK' to fetch the offset,
+# and 'bA' to increment it.
+
+hdfMMbAP
+
+# drop the dangling offset from the data input
+D
+
+
+# loop through each character
+# start at memory index 9
+j
+
+# LABEL: <LOOP_TOP>
+aFEaF
+
+# offset to jump if terminated (+194)
+#---------
+ efMcfMMhSZ
+
+# top of stack is the character in question
+
+# the basic algorithm is like this:
+# all the inputs will be >64 (minimum is 'A', which is 65)
+# so, always output 'iiM', then subtract 64 from the number
+# subtract 9 as long as it's > 9, and increment a counter
+# since we start at 64, and we don't need arbitrary numbers,
+# we are guaranteed to not exceed like 5*9 or whatever.
+# print out the remainder, and we're done.
+
+
+
+iiMS    # subtract 64
+
+aFjJ    # see if it's > 9
+
+# do that minus one -- if was greater, then 1-1 is 0. anything else (0-1, -1-1) will not be 0
+bS
+
+# push the offset, then conditional jump
+# GOTO <MULTIPLIER> (+100)
+#-------------
+ cfMcfMMZ
+
+
+# if we came from here, then there are no 9s to multiply. to keep things simpler below,
+# we assume that there's at least one multiplier, and we do a 'AA' -- if there's not enough
+# shit on the stack then we die. solution here is to just generate an 'a' so we'll add 0.
+jjMjAhAP
+
+
+# here's a trick, instead of using call/ret (because they use absolute offsets, fuck the designer of this)
+# we "pre-push" the arguments to 'G', in this case 0. then, at the end of this "routine", we will do a 'G'
+# without an argument --- so we just continue on the next line.
+
+# when called from elsewhere, we push an extra offset to the stack -- what this will jump to at the end, so
+# effectively we are using this like a function.
+
+# this is the 0:
+a
+
+# it's not more than 9.
+
+
+# LABEL <PRINT_DIGIT>
+
+# dupe the thing,
+# write 'a', add, print.
+
+bF jjMjAhA AP
+
+# well you're shit out of luck, it can't be anything else.
+
+# this is the jump without argument:
+# if we are using this to do the remainder, then we'll fallthrough and do the +64 etc.
+# if we're using this to do the multiplier, we'll jump back to there.
+G
+
+# anyway, here we 'add' the 64 to the output:
+
+# iiM
+hdfMMPhdfMMPijMfAP
+
+# plus two adds:
+iiMbAPiiMbAP
+
+# on the meta-stack, now we have:
+# [0]: offset
+# [1]: value
+# so, we generate a 'bF', followed by a 'K',
+# followed by a 'bA'.
+
+hhAhMP  # b
+iiMgAP  # F
+ijMdAP  # K
+hhAhMP  # b
+iiMbAP  # A
+
+
+# now we can drop the character, then add one to the index:
+DbA
+
+# go back to top
+# GOTO <LOOP_TOP> (-133)
+#       ------
+ajdfMMcSaAaAaASG
+
+
+# LABEL <MULTIPLIER>
+# here is the multiplication algo.
+# add a counter.
+a
+
+# LABEL <AGAIN>
+# it's more than 9, so just add one (this will also be used later)
+bA
+
+# yank the number from behind the counter
+bH
+
+# subtract 9
+jS
+
+# yank the counter back to the front
+bH
+
+# see if it's still more than 9:
+bFjJbS
+
+# if it is, we jump
+# GOTO <AGAIN>
+aefMSZ # -20
+
+
+# ok, time to stop.
+# on the top of the stack is now:
+# [0]: number_of_9s
+# [1]: remainder
+
+# use the 1-9 printer to print the number of 9s
+# push the target offset to use when jumping over here.
+
+# TARGET: <DO_REMAINDER> (+129 relative to the other guy)
+#-------------
+ iicMMbAaAaAaA
+
+# GOTO <PRINT_DIGIT> (-141)
+#         ----
+aggAggAMdSaAaASG
+
+
+# LABEL <DO_REMAINDER>
+# ok, now print a 9, then an M
+hdfMMbAP
+ijMfAP
+
+
+# ok, now the only thing left on the stack is the remainder
+# we just call the PRINT_DIGIT routine with '0' as the argument
+# so it finishes up (adds 64, etc.)
+
+# drop the 9-multiplier, we're done with it
+D
+
+# this is the 0:
+a
+
+# GOTO <PRINT_DIGIT> (-167)
+#-------SG
+afiMeMhASG
+
+
+
+
+# now all that's left is to print the output again.
+
+
+# this quits the program, but skip over it first.
+bG
+
+B
+
+# loop through each character
+# start at memory index 9
+j
+
+aFEaF
+
+#---
+ajeASZ
+
+	# print
+	P
+
+	# add one
+	bA
+
+	# repeat
+	adiMcSSG
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

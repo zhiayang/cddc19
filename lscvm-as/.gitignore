@@ -1,0 +1,7 @@
+.vscode
+*.exe
+build/meson-*
+build/lscvm-as
+build/lscvm-vm
+build/lscvm-mem
+build/lscvm-ascii

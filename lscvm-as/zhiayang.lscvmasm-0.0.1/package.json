@@ -1,0 +1,21 @@
+{
+    "name": "lscvmasm",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": ">=1.0.0"
+    },
+    "publisher": "zhiayang",
+    "contributes": {
+        "languages": [{
+            "id": "lscvmasm",
+            "aliases": ["LSCVM Assembly", "lscvm"],
+            "extensions": [".lscvm"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "lscvmasm",
+            "scopeName": "source.lscvmasm",
+            "path": "./Syntaxes/lscvm.tmLanguage"
+        }]
+    }
+}
